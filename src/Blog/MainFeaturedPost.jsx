@@ -39,10 +39,9 @@ function MainFeaturedPost(props) {
         },
       }}
     >
-      {/* Increase the priority of the hero background image */}
       {<img style={{ display: 'none' }} src={post.image} alt={post.imageText} />}
       <Grid container sx={{ display: 'flex', justifyContent: 'space-between' }}>
-        <Grid item md={6}>
+        <Grid item xs={12} md={6}>
           <Box
             sx={{
               position: 'relative',
@@ -78,19 +77,18 @@ function MainFeaturedPost(props) {
             </Box>
           </Box>
         </Grid>
-        <Grid item md={5} sx={{ paddingRight: 10 }}>
+        <Grid item xs={12} md={5} sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', pt: { xs: 3, md: 0 } }}>
           <Box
             sx={{
               position: 'relative',
-              height: '110%',
-              pt: '50%',
-              width: '300px',
+              height: { xs: '200px', md: '110%' },
+              width: { xs: '100%', sm: '300px' },
               maxWidth: '300px',
-              backgroundSize: '150%',
+              backgroundSize: 'contain',
               backgroundRepeat: 'no-repeat',
               backgroundPosition: 'center',
               backgroundImage: `url(${post.image})`,
-              borderRadius: '10%',
+              borderRadius: '50%',
               ml: 'auto',
             }}
           />
