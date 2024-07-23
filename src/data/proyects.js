@@ -1,4 +1,11 @@
 export const featuredPosts = [
+  {
+    title: 'Route 66 store',
+    description: 'Sitio web para venta de productos online con redireccionamiento whatsapp',
+    link: 'https://route-store.vercel.app/',
+    image: './route.png',
+    imageLabel: 'Imagen de la aplicación de route 66 store',
+  },
     {
       title: 'Calendar App',
       description: 'Una aplicación de calendario simple para gestionar tu horario.',

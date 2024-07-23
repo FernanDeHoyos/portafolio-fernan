@@ -137,8 +137,9 @@ export const About = () => {
             la experiencia del usuario y satisfacen las necesidades del cliente.
           </Typography>
           <CodeTypography>
-            <PointJava>Desarrollo avanzado con Java</PointJava>
-            <PointReact>Desarrollo con React</PointReact>
+            <PointJava>Desarrollo avanzado con Java y spring boot</PointJava>
+            <PointReact>Desarrollo con React y react native</PointReact>
+            <PointReact>Desarrollo con Nodejs y Express</PointReact>
             <PointMySQL>Gestión eficiente de bases de datos con MySQL</PointMySQL>
             <PointReact>Desarrollo de aplicaciones web escalables y robustas</PointReact>
             <PointJava>Análisis y optimización de procesos</PointJava>
