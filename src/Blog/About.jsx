@@ -170,7 +170,7 @@ export const About = () => {
               <DownloadButton 
                 variant="contained" 
                 size="large" 
-                href="https://drive.google.com/file/d/1bDehSVOyzLcTniOP37OpN5NtQe8DTArI/view?usp=sharing"
+                href="https://drive.google.com/file/d/1ND1Bx6tQKvptgc1yDhl0iZvO9WGSDUsg/view?usp=sharing"
                 startIcon={<GetAppIcon />}
                 target="_blank">
                 Descargar CV
