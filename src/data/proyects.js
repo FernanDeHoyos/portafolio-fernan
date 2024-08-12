@@ -1,5 +1,12 @@
 export const featuredPosts = [
   {
+    title: 'App incidentes',
+    description: 'App en React Native y Supabase para reportar incidentes de seguridad, con carga de evidencia multimedia y panel administrativo para gestionar reportes.',
+    link: 'https://github.com/FernanDeHoyos/AdminCrowd',
+    image: './mapa.png',
+    imageLabel: 'Imagen de la aplicación ',
+  },
+  {
     title: 'Route 66 store',
     description: 'Sitio web para venta de productos online con redireccionamiento whatsapp',
     link: 'https://route-store.vercel.app/',

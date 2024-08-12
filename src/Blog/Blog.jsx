@@ -28,7 +28,7 @@ const sections = [
 const mainFeaturedPost = {
   title: 'Fernan D. De Hoyos',
   description: "Software Developer",
-  image: './perfil.png',
+  image: './foto3x4.png',
   imageText: 'main image description',
   linkText: 'View my projects…',
 };

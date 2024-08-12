@@ -78,20 +78,21 @@ function MainFeaturedPost(props) {
           </Box>
         </Grid>
         <Grid item xs={12} md={5} sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', pt: { xs: 3, md: 0 } }}>
-          <Box
-            sx={{
-              position: 'relative',
-              height: { xs: '200px', md: '110%' },
-              width: { xs: '100%', sm: '300px' },
-              maxWidth: '300px',
-              backgroundSize: 'contain',
-              backgroundRepeat: 'no-repeat',
-              backgroundPosition: 'center',
-              backgroundImage: `url(${post.image})`,
-              borderRadius: '50%',
-              ml: 'auto',
-            }}
-          />
+        <Box
+  sx={{
+    position: 'relative',
+    height: { xs: '200px', md: '130%' }, // Aumentar el tamaño de la imagen
+    width: { xs: '100%', sm: '250px' }, // Ajustar el ancho
+    maxWidth: '350px', // Ajustar el máximo ancho
+    backgroundSize: 'cover', // Cambiar a 'cover' para cubrir el contenedor
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center',
+    backgroundImage: `url(${post.image})`,
+    borderRadius: '10%', // Bordes redondeados para hacer la imagen circular
+    ml: 'auto',
+    boxShadow: '0px 4px 15px rgba(0, 0, 0, 0.3)', // Agregar sombra para difuminar los bordes
+  }}
+/>
         </Grid>
       </Grid>
     </Paper>
