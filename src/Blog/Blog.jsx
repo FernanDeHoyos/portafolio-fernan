@@ -4,7 +4,7 @@ import Grid from '@mui/material/Grid';
 import Container from '@mui/material/Container';
 import { ThemeProvider } from '@mui/material/styles';
 import Header from './Header';
-import MainFeaturedPost from './MainFeaturedPost';
+import {MainFeaturedPost} from './MainFeaturedPost';
 import FeaturedPost from './FeaturedPost';
 import Footer from './Footer';
 import Skills from './Skills';
@@ -27,8 +27,8 @@ const sections = [
 
 const mainFeaturedPost = {
   title: 'Fernan D. De Hoyos',
-  description: "Software Developer",
-  image: './foto3x4.png',
+  description: "Ingeniero de sistemas",
+  image: './foto3x4_.png',
   imageText: 'main image description',
   linkText: 'View my projects…',
 };
@@ -61,7 +61,13 @@ export default function Blog() {
           </IconButton>
         </Grid>
         <main>
-          <MainFeaturedPost post={mainFeaturedPost} />
+          <MainFeaturedPost 
+          post={mainFeaturedPost}  
+          contactInfo={{
+              email: 'fernandehoyos93@gmail.com',
+              phone: '+57 3136601690',
+              address: 'La pradera, Monteria - Cordoba'
+            }} />
           <Grid item sx={{ display: 'flex', justifyContent: 'center', mt: 3, width: '100%' }}>
             <Divider />
             <Typography variant="h4" gutterBottom color={currentTheme.typography}>
@@ -77,8 +83,8 @@ export default function Blog() {
           </Grid>
           <Divider />
           <Grid id='proyectos' container sx={{ mt: 0.5 }} spacing={4}>
-            {featuredPosts.map((post) => (
-              <FeaturedPost key={post.title} post={post} />
+            {featuredPosts?.map((post) => (
+              <FeaturedPost key={post?.title} post={post} />
             ))}
           </Grid>
           <Grid item sx={{ display: 'flex', justifyContent: 'center', mt: 3, width: '100%' }}>

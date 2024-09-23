@@ -30,17 +30,31 @@ function Header(props) {
       <Divider />
       <List>
         {sections.map((section) => (
-          <ListItem button key={section.title} component="a" href={`#${section.url}`}>
-            <ListItemText primary={section.title} />
+          <ListItem
+            button
+            key={section.title}
+            component="a"
+            href={`#${section.url}`}
+            sx={{
+              textDecoration: 'none', // Eliminar el subrayado del enlace
+              color: 'inherit', // Asegurar que herede el color del texto
+            }}
+          >
+            <ListItemText
+              primary={section.title}
+            />
           </ListItem>
         ))}
       </List>
+
+
+
     </div>
   );
 
   return (
-    <Box 
-    component="header"
+    <Box
+      component="header"
       sx={{
         color: '#fff',
         display: 'flex',
@@ -79,7 +93,7 @@ function Header(props) {
                 key={section.title}
                 variant="body2"
                 href={`#${section.url}`}
-                sx={{ p: 1, flexShrink: 0 }}
+                sx={{ p: 1, flexShrink: 0, textDecoration: 'none' }}
               >
                 {section.title}
               </Link>

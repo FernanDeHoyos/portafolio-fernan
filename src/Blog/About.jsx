@@ -127,14 +127,15 @@ export const About = () => {
             Perfil Profesional
           </Typography>
           <Typography variant="body1" paragraph>
-            Soy un desarrollador de software con una sólida 
-            formación en Ingeniería de Sistemas y experiencia 
-            especializada en el desarrollo web. Poseo conocimientos
-            profundos y experiencia práctica en tecnologías clave
-            como Java, React y MySQL. Mi trayectoria incluye habilidades
-            avanzadas en análisis, evaluación y desarrollo de proyectos,
-            centrándome en la creación de soluciones innovadoras que mejoran
-            la experiencia del usuario y satisfacen las necesidades del cliente.
+          Desarrollador de software con experiencia en aplicaciones web utilizando React, Node.js y Spring Boot.
+Experiencia en proyectos personales que incluyen:
+3 años de experiencia en desarrollo de software con Java y spring boot.
+2 años de experiencia en desarrollo de APIs REST con Node.js y MySQL.
+3 años de experiencia en implementación de interfaces de usuario dinámicas y responsivas con React y Material-UI.
+Sólido conocimiento en programación orientada a objetos con Java y JavaScript.
+Manejo de bases de datos relacionales (MySQL) y no relacionales (MongoDB).
+Experto en análisis y diseño de sistemas de software utilizando UML (diagramas de casos de uso, secuencia, y clases).
+Enfoque en el desarrollo de software de alta calidad y en el aprendizaje continuo.
           </Typography>
           <CodeTypography>
             <PointJava>Desarrollo avanzado con Java y spring boot</PointJava>
